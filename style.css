@@ -1,5 +1,52 @@
 .wrapper{
-    width: 550px;
+    width: 595px;
     height: 100%;
     background-color: antiquewhite;
+    margin: 4px;
+    margin-top: 10px;
+    padding: 4px;
+    font-family: Tahoma;
 }
+
+.card-head{
+    align-items: center;
+    text-align: center;
+    line-height: 3px;
+}
+
+table{
+    width: 100%;
+}
+
+th, td {
+    border: 1px dotted;
+}
+
+.border-none{
+    border: none;
+    font-weight: bold;
+}
+
+.tfoot-color{
+    background-color: #c2c8d1;
+}
+
+.p-tag{
+    margin-top: 0;
+}
+
+.h-tag-style{
+    margin-top: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.signature{
+    border: none;
+}
+
+.logo{
+    margin-left: 160px;
+    text-align: center;
+}
+
