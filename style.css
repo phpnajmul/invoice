@@ -62,19 +62,19 @@ th, td {
 }
 
 .qr-and-logo{
-    margin-left: 200px;
+    margin-left: 190px;
     text-align: center;
 }
 
 .logo{
     width: 200px;
     height: 40px;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
 .qr-border{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     margin-top: 6px;
     margin-left: 120px;
     padding: 2px;
@@ -82,7 +82,7 @@ th, td {
     border-radius: 4px;
 }
 .td-text-center{
-   text-align: center;
+    text-align: center;
 }
 
 .border-check-style{
@@ -96,6 +96,8 @@ th, td {
     border: black 1px dotted;
     padding: 2px;
     width: 86px;
+    display: flex;
+    font-size: 14px;
 }
 
 .transport-style{
@@ -109,6 +111,16 @@ th, td {
     padding: 2px;
     flex: 2;
 }
+
+.border-line{
+    padding-left: 2px;
+    margin-right: 4px;
+    width: 20px;
+    height: 16px;
+    /*background-color: black;*/
+    border: black 1px dotted;
+}
+
 
 
 
