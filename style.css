@@ -3,13 +3,24 @@
     src: url("fonts/tahoma.ttf") format("ttf");
 }
 
+@page {
+    size: A4 landscape;
+}
+
+.page-container{
+    width: 1290px;
+    font-family: Tahoma;
+    display: flex;
+    justify-content: space-between;
+}
+
 .wrapper{
     width: 595px;
     height: 100%;
     background-color: antiquewhite;
     margin: 4px;
     padding: 4px;
-    font-family: Tahoma;
+    flex-direction: column-reverse;
 }
 
 .card-head{
@@ -119,6 +130,13 @@ th, td {
     height: 16px;
     /*background-color: black;*/
     border: black 1px dotted;
+}
+
+.dev-it{
+    font-size: 10px;
+    color: rgba(70, 64, 64, 0.56);
+    margin-left: 4px;
+    font-style: italic;
 }
 
 
