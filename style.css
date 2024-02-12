@@ -26,17 +26,22 @@
 .card-head{
     align-items: center;
     text-align: center;
-    line-height: 3px;
+    line-height: 0;
 }
 
 .head-line{
     text-align: center;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: bold;
 }
 
 table{
     width: 100%;
+    font-size: 12px;
 }
 /*This gate pass developed by Easy IT - Najmul Hossain*/
 th, td {
@@ -54,19 +59,22 @@ th, td {
 
 .p-tag{
     margin-top: 0;
-    font-size: 14px;
+    margin-bottom: 0;
+    font-size: 12px;
     font-style: italic;
 }
 
-.h-tag-style{
+.office-copy-style{
     margin-top: 2px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .signature{
-    font-size: 13px;
-    margin: 4px 2px 4px 2px;
+    font-size: 12px;
+    margin: 4px 0 4px 0;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
@@ -74,7 +82,7 @@ th, td {
 }
 
 .signature > div{
-    padding: 2px;
+    padding-bottom: 0;
     width: auto;
 }
 
@@ -84,9 +92,9 @@ th, td {
 }
 
 .logo{
-    width: 200px;
-    height: 40px;
-    margin-top: 4px;
+    width: 150px;
+    height: 30px;
+    margin-top: 2px;
 }
 
 .qr-border{
@@ -114,19 +122,20 @@ th, td {
     padding: 2px;
     width: 86px;
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .transport-style{
-    margin: 4px 2px 4px 2px;
+    margin: 4px 1px 4px 1px;
     width: 100%;
     display: flex;
     grid-auto-columns: auto auto;
     font-weight: bold;
 }
 .transport-style > div{
-    padding: 2px;
+    padding: 1px;
     flex: 2;
+    font-size: 14px;
 }
 
 /*.border-line{*/
@@ -145,8 +154,8 @@ th, td {
 }
 
 .checkbox-style {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     pointer-events: none;
 }
 
