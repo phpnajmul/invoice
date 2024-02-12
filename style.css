@@ -51,6 +51,7 @@ th, td {
 .border-none{
     border: none;
     font-weight: bold;
+    text-align: justify;
 }
 
 .tfoot-color{
