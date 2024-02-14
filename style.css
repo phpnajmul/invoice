@@ -29,15 +29,6 @@
     line-height: 0;
 }
 
-.head-line{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-weight: bold;
-}
 
 table{
     width: 100%;
@@ -99,8 +90,8 @@ th, td {
 }
 
 .qr-border{
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     margin-top: 6px;
     margin-left: 120px;
     padding: 2px;
@@ -158,6 +149,29 @@ th, td {
     width: 14px;
     height: 14px;
     pointer-events: none;
+}
+
+.ref-head{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.ref-head > span{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 230px;
+    font-weight: bold;
+}
+
+.ref-head > div {
+    align-items: start;
+    margin-left: 4px;
+    font-size: 12px;
 }
 
 
